@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A282378D1809672B000340E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A282378C1809672B000340E5 /* Foundation.framework */; };
+		A282378F1809672B000340E5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A282378E1809672B000340E5 /* CoreGraphics.framework */; };
+		A28237911809672B000340E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A28237901809672B000340E5 /* UIKit.framework */; };
+		A28237971809672B000340E5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A28237951809672B000340E5 /* InfoPlist.strings */; };
+		A28237991809672B000340E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A28237981809672B000340E5 /* main.m */; };
+		A282379D1809672B000340E5 /* ClockAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A282379C1809672B000340E5 /* ClockAppDelegate.m */; };
+		A28237A01809672B000340E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A282379E1809672B000340E5 /* Main.storyboard */; };
+		A28237A31809672B000340E5 /* ClockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A28237A21809672B000340E5 /* ClockViewController.m */; };
+		A28237A51809672B000340E5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A28237A41809672B000340E5 /* Images.xcassets */; };
+		A28237AC1809672B000340E5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A28237AB1809672B000340E5 /* XCTest.framework */; };
+		A28237AD1809672B000340E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A282378C1809672B000340E5 /* Foundation.framework */; };
+		A28237AE1809672B000340E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A28237901809672B000340E5 /* UIKit.framework */; };
+		A28237B61809672B000340E5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A28237B41809672B000340E5 /* InfoPlist.strings */; };
+		A28237B81809672B000340E5 /* AlamTest1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A28237B71809672B000340E5 /* AlamTest1Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A28237AF1809672B000340E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A28237811809672B000340E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A28237881809672B000340E5;
+			remoteInfo = AlamTest1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A28237891809672B000340E5 /* AlamTest1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlamTest1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A282378C1809672B000340E5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A282378E1809672B000340E5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A28237901809672B000340E5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A28237941809672B000340E5 /* AlamTest1-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AlamTest1-Info.plist"; sourceTree = "<group>"; };
+		A28237961809672B000340E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A28237981809672B000340E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A282379A1809672B000340E5 /* AlamTest1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AlamTest1-Prefix.pch"; sourceTree = "<group>"; };
+		A282379B1809672B000340E5 /* ClockAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClockAppDelegate.h; sourceTree = "<group>"; };
+		A282379C1809672B000340E5 /* ClockAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClockAppDelegate.m; sourceTree = "<group>"; };
+		A282379F1809672B000340E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A28237A11809672B000340E5 /* ClockViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClockViewController.h; sourceTree = "<group>"; };
+		A28237A21809672B000340E5 /* ClockViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClockViewController.m; sourceTree = "<group>"; };
+		A28237A41809672B000340E5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A28237AA1809672B000340E5 /* AlamTest1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlamTest1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A28237AB1809672B000340E5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A28237B31809672B000340E5 /* AlamTest1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AlamTest1Tests-Info.plist"; sourceTree = "<group>"; };
+		A28237B51809672B000340E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A28237B71809672B000340E5 /* AlamTest1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlamTest1Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A28237861809672B000340E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A282378F1809672B000340E5 /* CoreGraphics.framework in Frameworks */,
+				A28237911809672B000340E5 /* UIKit.framework in Frameworks */,
+				A282378D1809672B000340E5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A28237A71809672B000340E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A28237AC1809672B000340E5 /* XCTest.framework in Frameworks */,
+				A28237AE1809672B000340E5 /* UIKit.framework in Frameworks */,
+				A28237AD1809672B000340E5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A28237801809672B000340E5 = {
+			isa = PBXGroup;
+			children = (
+				A28237921809672B000340E5 /* AlamTest1 */,
+				A28237B11809672B000340E5 /* AlamTest1Tests */,
+				A282378B1809672B000340E5 /* Frameworks */,
+				A282378A1809672B000340E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A282378A1809672B000340E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A28237891809672B000340E5 /* AlamTest1.app */,
+				A28237AA1809672B000340E5 /* AlamTest1Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A282378B1809672B000340E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A282378C1809672B000340E5 /* Foundation.framework */,
+				A282378E1809672B000340E5 /* CoreGraphics.framework */,
+				A28237901809672B000340E5 /* UIKit.framework */,
+				A28237AB1809672B000340E5 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A28237921809672B000340E5 /* AlamTest1 */ = {
+			isa = PBXGroup;
+			children = (
+				A282379B1809672B000340E5 /* ClockAppDelegate.h */,
+				A282379C1809672B000340E5 /* ClockAppDelegate.m */,
+				A282379E1809672B000340E5 /* Main.storyboard */,
+				A28237A11809672B000340E5 /* ClockViewController.h */,
+				A28237A21809672B000340E5 /* ClockViewController.m */,
+				A28237A41809672B000340E5 /* Images.xcassets */,
+				A28237931809672B000340E5 /* Supporting Files */,
+			);
+			path = AlamTest1;
+			sourceTree = "<group>";
+		};
+		A28237931809672B000340E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A28237941809672B000340E5 /* AlamTest1-Info.plist */,
+				A28237951809672B000340E5 /* InfoPlist.strings */,
+				A28237981809672B000340E5 /* main.m */,
+				A282379A1809672B000340E5 /* AlamTest1-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A28237B11809672B000340E5 /* AlamTest1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A28237B71809672B000340E5 /* AlamTest1Tests.m */,
+				A28237B21809672B000340E5 /* Supporting Files */,
+			);
+			path = AlamTest1Tests;
+			sourceTree = "<group>";
+		};
+		A28237B21809672B000340E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A28237B31809672B000340E5 /* AlamTest1Tests-Info.plist */,
+				A28237B41809672B000340E5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A28237881809672B000340E5 /* AlamTest1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A28237BB1809672B000340E5 /* Build configuration list for PBXNativeTarget "AlamTest1" */;
+			buildPhases = (
+				A28237851809672B000340E5 /* Sources */,
+				A28237861809672B000340E5 /* Frameworks */,
+				A28237871809672B000340E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlamTest1;
+			productName = AlamTest1;
+			productReference = A28237891809672B000340E5 /* AlamTest1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A28237A91809672B000340E5 /* AlamTest1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A28237BE1809672B000340E5 /* Build configuration list for PBXNativeTarget "AlamTest1Tests" */;
+			buildPhases = (
+				A28237A61809672B000340E5 /* Sources */,
+				A28237A71809672B000340E5 /* Frameworks */,
+				A28237A81809672B000340E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A28237B01809672B000340E5 /* PBXTargetDependency */,
+			);
+			name = AlamTest1Tests;
+			productName = AlamTest1Tests;
+			productReference = A28237AA1809672B000340E5 /* AlamTest1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A28237811809672B000340E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Clock;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "zheng xianzi";
+				TargetAttributes = {
+					A28237A91809672B000340E5 = {
+						TestTargetID = A28237881809672B000340E5;
+					};
+				};
+			};
+			buildConfigurationList = A28237841809672B000340E5 /* Build configuration list for PBXProject "AlamTest1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A28237801809672B000340E5;
+			productRefGroup = A282378A1809672B000340E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A28237881809672B000340E5 /* AlamTest1 */,
+				A28237A91809672B000340E5 /* AlamTest1Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A28237871809672B000340E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A28237A51809672B000340E5 /* Images.xcassets in Resources */,
+				A28237971809672B000340E5 /* InfoPlist.strings in Resources */,
+				A28237A01809672B000340E5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A28237A81809672B000340E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A28237B61809672B000340E5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A28237851809672B000340E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A28237A31809672B000340E5 /* ClockViewController.m in Sources */,
+				A28237991809672B000340E5 /* main.m in Sources */,
+				A282379D1809672B000340E5 /* ClockAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A28237A61809672B000340E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A28237B81809672B000340E5 /* AlamTest1Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A28237B01809672B000340E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A28237881809672B000340E5 /* AlamTest1 */;
+			targetProxy = A28237AF1809672B000340E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A28237951809672B000340E5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A28237961809672B000340E5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A282379E1809672B000340E5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A282379F1809672B000340E5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A28237B41809672B000340E5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A28237B51809672B000340E5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A28237B91809672B000340E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A28237BA1809672B000340E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A28237BC1809672B000340E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AlamTest1/AlamTest1-Prefix.pch";
+				INFOPLIST_FILE = "AlamTest1/AlamTest1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A28237BD1809672B000340E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AlamTest1/AlamTest1-Prefix.pch";
+				INFOPLIST_FILE = "AlamTest1/AlamTest1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A28237BF1809672B000340E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AlamTest1.app/AlamTest1";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AlamTest1/AlamTest1-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AlamTest1Tests/AlamTest1Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A28237C01809672B000340E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AlamTest1.app/AlamTest1";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AlamTest1/AlamTest1-Prefix.pch";
+				INFOPLIST_FILE = "AlamTest1Tests/AlamTest1Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A28237841809672B000340E5 /* Build configuration list for PBXProject "AlamTest1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A28237B91809672B000340E5 /* Debug */,
+				A28237BA1809672B000340E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A28237BB1809672B000340E5 /* Build configuration list for PBXNativeTarget "AlamTest1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A28237BC1809672B000340E5 /* Debug */,
+				A28237BD1809672B000340E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A28237BE1809672B000340E5 /* Build configuration list for PBXNativeTarget "AlamTest1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A28237BF1809672B000340E5 /* Debug */,
+				A28237C01809672B000340E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A28237811809672B000340E5 /* Project object */;
+}
