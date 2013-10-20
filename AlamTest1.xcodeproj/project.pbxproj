@@ -21,6 +21,10 @@
 		A28237AE1809672B000340E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A28237901809672B000340E5 /* UIKit.framework */; };
 		A28237B61809672B000340E5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A28237B41809672B000340E5 /* InfoPlist.strings */; };
 		A28237B81809672B000340E5 /* AlamTest1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A28237B71809672B000340E5 /* AlamTest1Tests.m */; };
+		A28237C318097447000340E5 /* SettingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A28237C218097447000340E5 /* SettingVC.m */; };
+		A28237C518097AF6000340E5 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A28237C418097AF6000340E5 /* AVFoundation.framework */; };
+		A28237C818098374000340E5 /* Alarm.caf in Resources */ = {isa = PBXBuildFile; fileRef = A28237C718098374000340E5 /* Alarm.caf */; };
+		A28237CA18099377000340E5 /* 名称未設定1.png in Resources */ = {isa = PBXBuildFile; fileRef = A28237C918099377000340E5 /* 名称未設定1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,11 @@
 		A28237B31809672B000340E5 /* AlamTest1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AlamTest1Tests-Info.plist"; sourceTree = "<group>"; };
 		A28237B51809672B000340E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A28237B71809672B000340E5 /* AlamTest1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlamTest1Tests.m; sourceTree = "<group>"; };
+		A28237C118097447000340E5 /* SettingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingVC.h; path = ../SettingVC.h; sourceTree = "<group>"; };
+		A28237C218097447000340E5 /* SettingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingVC.m; path = ../SettingVC.m; sourceTree = "<group>"; };
+		A28237C418097AF6000340E5 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A28237C718098374000340E5 /* Alarm.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Alarm.caf; sourceTree = "<group>"; };
+		A28237C918099377000340E5 /* 名称未設定1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "名称未設定1.png"; path = "../../../Desktop/トキカネ/名称未設定1.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A28237C518097AF6000340E5 /* AVFoundation.framework in Frameworks */,
 				A282378F1809672B000340E5 /* CoreGraphics.framework in Frameworks */,
 				A28237911809672B000340E5 /* UIKit.framework in Frameworks */,
 				A282378D1809672B000340E5 /* Foundation.framework in Frameworks */,
@@ -82,6 +92,7 @@
 		A28237801809672B000340E5 = {
 			isa = PBXGroup;
 			children = (
+				A28237C918099377000340E5 /* 名称未設定1.png */,
 				A28237921809672B000340E5 /* AlamTest1 */,
 				A28237B11809672B000340E5 /* AlamTest1Tests */,
 				A282378B1809672B000340E5 /* Frameworks */,
@@ -101,6 +112,7 @@
 		A282378B1809672B000340E5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A28237C418097AF6000340E5 /* AVFoundation.framework */,
 				A282378C1809672B000340E5 /* Foundation.framework */,
 				A282378E1809672B000340E5 /* CoreGraphics.framework */,
 				A28237901809672B000340E5 /* UIKit.framework */,
@@ -112,6 +124,9 @@
 		A28237921809672B000340E5 /* AlamTest1 */ = {
 			isa = PBXGroup;
 			children = (
+				A28237C618098374000340E5 /* Sounds */,
+				A28237C118097447000340E5 /* SettingVC.h */,
+				A28237C218097447000340E5 /* SettingVC.m */,
 				A282379B1809672B000340E5 /* ClockAppDelegate.h */,
 				A282379C1809672B000340E5 /* ClockAppDelegate.m */,
 				A282379E1809672B000340E5 /* Main.storyboard */,
@@ -150,6 +165,15 @@
 				A28237B41809672B000340E5 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A28237C618098374000340E5 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				A28237C718098374000340E5 /* Alarm.caf */,
+			);
+			name = Sounds;
+			path = ../../AlarmTest/Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,8 +253,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A28237CA18099377000340E5 /* 名称未設定1.png in Resources */,
 				A28237A51809672B000340E5 /* Images.xcassets in Resources */,
 				A28237971809672B000340E5 /* InfoPlist.strings in Resources */,
+				A28237C818098374000340E5 /* Alarm.caf in Resources */,
 				A28237A01809672B000340E5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A28237A31809672B000340E5 /* ClockViewController.m in Sources */,
+				A28237C318097447000340E5 /* SettingVC.m in Sources */,
 				A28237991809672B000340E5 /* main.m in Sources */,
 				A282379D1809672B000340E5 /* ClockAppDelegate.m in Sources */,
 			);
@@ -461,6 +488,7 @@
 				A28237BD1809672B000340E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A28237BE1809672B000340E5 /* Build configuration list for PBXNativeTarget "AlamTest1Tests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +497,7 @@
 				A28237C01809672B000340E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
